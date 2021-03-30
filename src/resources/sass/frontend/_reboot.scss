@@ -1,0 +1,35 @@
+textarea {
+
+  resize: none;
+}
+
+b, strong {
+
+  font-family: get-font-family($bold-font-map);
+}
+
+ul {
+
+  &.list-style-icon {
+
+    padding: 0;
+    list-style: none;
+
+    li {
+
+      display: flex;
+      
+      &:not(:last-child) {
+
+        margin-bottom: .75rem;
+      }
+
+      &:before {
+
+        content: url('/assets/svg/ic-arrow-right.svg');
+        padding-right: .75rem;
+        display: block;
+      }
+    }
+  }
+}
