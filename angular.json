@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-gamefication"
+  "defaultProject": "angular-gamefication",
+  "cli": {
+    "analytics": "c0455a41-6840-428e-9336-2d92bae01206"
+  }
 }

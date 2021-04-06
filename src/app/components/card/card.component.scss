@@ -1,0 +1,15 @@
+@import "../../../styles";
+
+.card {
+
+    padding: .1rem;
+    background: radial-gradient(circle, rgba(11,229,190,1) 0%, rgba(88,18,201,1) 100%);
+    border-radius: 7px;
+
+    &-body {
+
+        padding: 2rem;
+        background: $primary;
+        border-radius: 7px;
+    }
+}
