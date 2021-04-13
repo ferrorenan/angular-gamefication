@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 
 export interface ItemsCard {
 
-  id: string,
-  ariaLabel: string,
-  description: string,
+  id: string;
+  ariaLabel: string;
+  description: string;
 }
 
 @Injectable()
@@ -13,7 +13,7 @@ export class CardService {
   constructor() { }
 
   allOptionsCards(): ItemsCard[] {
-    
+
     return [
       {
         id: 'randomPlaylist',
@@ -25,6 +25,6 @@ export class CardService {
         ariaLabel: 'Random Playlist',
         description: 'Random Meme',
       }
-    ]
+    ];
   }
 }

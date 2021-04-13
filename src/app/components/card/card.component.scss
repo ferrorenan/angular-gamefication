@@ -1,15 +1,13 @@
-@import "../../../styles";
+@import "../../../resources/sass/frontend/common";
 
 .card {
 
-    padding: .1rem;
-    background: radial-gradient(circle, rgba(11,229,190,1) 0%, rgba(88,18,201,1) 100%);
-    border-radius: 7px;
+  border: 2px solid #221F20;
+  background: $primary;
+  border-radius: 7px;
 
-    &-body {
+  &-body {
 
-        padding: 2rem;
-        background: $primary;
-        border-radius: 7px;
-    }
+    padding: 1rem;
+  }
 }

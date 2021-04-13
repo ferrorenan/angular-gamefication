@@ -6,14 +6,17 @@ import { AppComponent } from './app.component';
 import { BoardComponent } from './views/board/board.component';
 import { HeaderComponent } from './components/header/header.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
     BoardComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

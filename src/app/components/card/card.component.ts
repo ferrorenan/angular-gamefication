@@ -4,15 +4,16 @@ import { CardService } from './card.service';
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+  styleUrls: ['./card.component.scss'],
+  providers: [CardService]
 })
 export class CardComponent implements OnInit {
 
-  cardOptionsAvailable = this.cardOptions.allOptionsCards();
+  cardOptionsAvailable = this.cardOptionsChoice.allOptionsCards();
 
   constructor(
-    
-    private cardOptions: CardService
+
+    private cardOptionsChoice: CardService
   ) { }
 
   ngOnInit(): void {

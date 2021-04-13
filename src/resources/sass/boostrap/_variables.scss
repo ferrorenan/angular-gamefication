@@ -36,7 +36,8 @@ $grays: map-merge(
 );
 
 $blue: #007bff !default;
-$chanthams-blue: #0F406F !default; // Primary
+$provincial-pink: #FEF9F5;
+$thunder: #221F20;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
@@ -76,8 +77,8 @@ $colors: map-merge(
         $colors
 );
 
-$primary: $black  !default;
-$secondary: $white !default;
+$primary: $provincial-pink  !default;
+$secondary: $thunder !default;
 $success: $green-limon !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -322,17 +323,17 @@ $font-weight-base: $font-weight-normal !default;
 $line-height-base: 1.5 !default;
 
 $h1-font-size: clamp(2.75rem, 5vw, 5rem) !default;
-$h2-font-size: clamp(2.25rem, 3.75vw, 3.75rem) !default;
+$h2-font-size: clamp(1.75rem, 3.75vw, 1.75rem) !default;
 $h3-font-size: clamp(1.6rem, 2.5vw, 2.5rem) !default;
 $h4-font-size: clamp(1.3rem, 1.6vw, 1.6rem) !default;
 $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default;
 
-$headings-margin-bottom: $spacer / 2 !default;
+$headings-margin-bottom: $spacer * 2 !default;
 $headings-font-family: get-font-family($bold-font-map) !default;
 $headings-font-weight: 500 !default;
 $headings-line-height: 100% !default;
-$headings-color: $primary !default;
+$headings-color: $secondary !default;
 
 $display1-size: clamp(2.75rem, 5vw, 5rem) !default;
 $display2-size: clamp(2.25rem, 3.75vw, 3.75rem) !default;

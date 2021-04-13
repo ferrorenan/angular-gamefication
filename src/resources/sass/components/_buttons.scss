@@ -7,47 +7,4 @@
 
     text-transform: uppercase;
   }
-
-  &-spinner {
-
-    padding: $btn-padding-y $btn-spinner-padding-x;
-  }
-
-  &-arrow {
-    position: relative;
-    @extend .pl-1h;
-    @extend .pr-1h;
-
-    &:before {
-      content: '';
-      background: $btn-arrow-indicator-background;
-      position: absolute;
-      width: 1rem;
-      height: 1rem;
-      right: 0.5rem;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-
-  &-primary {
-
-    @extend .text-secondary;
-  }
-
-  &-secondary {
-
-    @extend .text-primary;
-  }
-
-  &-collapsed {
-
-    &-primary {
-
-      &[aria-expanded="true"] {
-
-        @extend .btn-primary;
-      }
-    }
-  }
 }

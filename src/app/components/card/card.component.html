@@ -1,11 +1,11 @@
-<div class="row">
-    <div class="col-lg-4" *ngFor="let cardServices of cardOptionsAvailable">
+<div class="row justify-content-lg-center">
+    <div class="col-lg-4" *ngFor="let cardOption of cardOptionsAvailable">
         <div class="card">
             <div class="card-body">
-                <a id="{{ cardServices.id }"
-                   href="{{ cardServices.ariaLabel }}"
-                   class="d-block text-warning">
-                   {{ cardServices.description }}
+                <a id="{{ cardOption.id }}"
+                   href="{{ cardOption.ariaLabel }}"
+                   class="d-block text-secondary light-text">
+                   {{ cardOption.description }}
                 </a>
             </div>
         </div>

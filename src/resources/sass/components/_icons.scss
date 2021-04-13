@@ -4,33 +4,6 @@
   width: $icon-md-x;
   height: $icon-md-y;
 
-  &-right {
-
-    transform: rotate(-90deg);
-  }
-
-  &-right-to-down {
-
-    transform: rotate(90deg);
-  }
-
-  &-inverse {
-
-    transform: rotate(180deg);
-  }
-
-  &-infinite-scroll-loading {
-
-    min-height: $infinite-scroll-loading-icon-size;
-    background: $infinite-scroll-loading-icon-background;
-  }
-
-  @include media-breakpoint-up(lg) {
-
-    width: $icon-md-x;
-    height: $icon-md-y;
-  }
-
   &-sm {
 
     width: $icon-sm-x;
@@ -53,23 +26,5 @@
       width: $icon-lg-x;
       height: $icon-lg-y;
     }
-  }
-
-  &-logo {
-
-    width: 10.3125rem;
-    height: 2.625rem;
-  }
-
-  &-menu {
-
-    width: 1.5625rem;
-    height: 1.25rem;
-  }
-
-  &-close {
-
-    width: 1.25rem;
-    height: 1.25rem;
   }
 }
